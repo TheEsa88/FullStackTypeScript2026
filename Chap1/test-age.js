@@ -9,6 +9,7 @@ function canDrive(usr) {
     }
 }
 const tom = {
-    name: "tom"
+    name: "tom",
+    age: 25
 };
 canDrive(tom);
