@@ -1,6 +1,8 @@
-import { ChangeEvent, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import type { ChangeEvent } from "react";
 import "./App.css";
-import Home, { UserType } from "./Home";
+import Home from "./Home";
+import type { UserType } from "./Home";
 import DeferredValue from "./DeferredValue";
 import Transitioner from "./Transitioner";
 import UserForm from "./UserForm";
